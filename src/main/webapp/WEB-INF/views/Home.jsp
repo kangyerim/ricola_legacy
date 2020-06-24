@@ -36,15 +36,7 @@
       </table>
     </div>
     
-        <table class="footer">
-            <a>2020.06.22 FIF TEEN project</a>
-        </table>
-        
-  </div>
-</body>
-</html>
-
-
+<jsp:include page="Footer.jsp"/>
 <script>
 	$('#join_btn').click(function(e) {
 		e.preventDefault()

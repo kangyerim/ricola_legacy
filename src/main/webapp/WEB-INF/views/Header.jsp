@@ -1,8 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
     
-<jsp:include page="Header.jsp"/>
-
 <!DOCTYPE html>
 <html>
 <head>
