@@ -1,0 +1,26 @@
+create table members(
+	member_no int not null auto_increment,
+	member_id varchar(20) not null,
+	password varchar(20) not null,
+	member_name varchar(10) not null,
+	email varchar(30) not null,
+	primary key(member_no)
+)engine = InnoDB DEFAULT CHARSET = UTF8;
+
+create table picnics(
+	id int unsigned not null auto_increment,
+	station_name varchar(20) unique,
+	road_address varchar(50),
+	branch_address varchar(50),
+	latitude varchar(10),
+	hardness varchar(10),
+	holding_num varchar (5),
+	holder_num varchar (5),
+	air_injection varchar(5),
+	air_injection_type varchar(10),
+	primary key(id)
+)engine = InnoDB DEFAULT CHARSET = UTF8;
+
+show tables;
+select * from members;
+select * from picnics;
