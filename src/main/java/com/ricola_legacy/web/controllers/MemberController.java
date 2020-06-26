@@ -17,7 +17,7 @@ public class MemberController {
 	public String joinForm() {
 		
 		logger.info("~~~~~~~~~~joinForm ÁøÀÔ~~~~~~~~~~~");
-		return "Join";
+		return "member/Join.tiles";
 	}
 }
 

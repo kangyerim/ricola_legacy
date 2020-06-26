@@ -4,10 +4,6 @@
 
 <mapper namespace="com.ricola_legacy.web.mappers.MemberMapper">
 
-    <select id="login" resultType="com.ricola_legacy.web.member.Member"
-                        parameterType="com.ricola_legacy.web.member.Member">
-        select user_id userId, password, user_name userName, birth_date birthDate, member_no memberNo from member
-        where user_id like #{userId} and password like #{password}
-    </select>
+    
 
 </mapper>
